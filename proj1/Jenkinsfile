@@ -2,7 +2,9 @@ pipeline {
   agent any
   stages {
     stage('Build') {
-      echo 'noop'
+      steps {
+        echo 'noop'
+      }
     }
   }
 }
